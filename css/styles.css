@@ -3,3 +3,22 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+
+.logo {
+  color: var(--IRIS, #4d5ae5);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.textlogo {
+  color: #2e2f42;
+}
+
+.list {
+  list-style: none;
+}
