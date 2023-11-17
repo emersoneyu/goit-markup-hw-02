@@ -12,7 +12,7 @@ body {
   color: var(--iris);
   font-family: Raleway, sans-serif;
   font-size: 18px;
-  font-style: normal
+  font-style: normal;
   font-weight: 800;
   line-height: 1.17px;
   letter-spacing: 0.54px;
@@ -40,20 +40,54 @@ body {
 }
 
 .nav-contact .link {
-    color: #434455;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px; /* 150% */
-    letter-spacing: 0.32px;
+  color: #434455;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
 }
 
 .link:hover {
-    color: #404bbf;
-  }
-  
-  .link:focus {
-    color: #404bbf;
-  }
-  
+  color: #404bbf;
+}
+
+.link:focus {
+  color: #404bbf;
+}
+
+.contacts {
+  font-style: normal;
+}
+
+.first-section {
+  background-color: #2e2f42;
+}
+
+.header {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.button {
+  background-color: #4d5ae5;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #404bbf;
+}
+
+.button:focus {
+  background-color: #404bbf;
+}
